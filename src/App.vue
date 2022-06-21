@@ -1,6 +1,11 @@
 <template>
   <div id="app">
     <TheHeader></TheHeader>
+    <main>
+      <div class="container mt-5">
+        <div class="bg-dark text-white pt-5 pb-5 text-start fw-bold">&rArr; Content goes here &lArr;</div>
+      </div>
+    </main>
     <TheFooter></TheFooter>
   </div>
 </template>
