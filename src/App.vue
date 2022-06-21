@@ -1,9 +1,12 @@
 <template>
   <div id="app">
     <TheHeader></TheHeader>
-    <main>
+    <main class="bg-dark">
       <div class="container mt-5">
-        <div class="bg-dark text-white pt-5 pb-5 text-start fw-bold">&rArr; Content goes here &lArr;</div>
+        <div class="text-white pt-5 pb-5 text-start fw-bold">&rArr; Content goes here &lArr;</div>
+        
+        </div>
+
         <div class="bg-primary pt-5 pb-5 text-white">
           <div class="row">
             <div class="col">
@@ -27,7 +30,6 @@
               <span class="img-title">DC POWER VISA</span>
             </div>
           </div>
-        </div>
       </div>
     </main>
     <TheFooter></TheFooter>
