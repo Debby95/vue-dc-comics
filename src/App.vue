@@ -4,6 +4,30 @@
     <main>
       <div class="container mt-5">
         <div class="bg-dark text-white pt-5 pb-5 text-start fw-bold">&rArr; Content goes here &lArr;</div>
+        <div class="bg-primary pt-5 pb-5 text-white">
+          <div class="row">
+            <div class="col">
+              <img class="img-blue-banner" src="/img/buy-comics-digital-comics.png" alt="">
+              <span class="img-title">DIGITAL COMICS</span>
+            </div>
+            <div class="col">
+              <img class="img-blue-banner" src="/img/buy-comics-merchandise.png" alt="">
+              <span class="img-title">DC MERCHANDISE</span>
+            </div>
+            <div class="col">
+              <img class="img-blue-banner" src="/img/buy-comics-subscriptions.png" alt="">
+              <span class="img-title">SUBSCRIPTION</span>
+            </div>
+            <div class="col">
+              <img class="img-blue-banner" src="/img/buy-comics-shop-locator.png" alt="">
+              <span class="img-title">COMIC SHOP LOCATOR</span>
+            </div>
+            <div class="col">
+              <img class="img-blue-banner" src="/img/buy-dc-power-visa.svg" alt="">
+              <span class="img-title">DC POWER VISA</span>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <TheFooter></TheFooter>
@@ -31,5 +55,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.img-blue-banner {
+  width: 25px;
+}
+
+.img-title {
+  font-size: 15px;
+  margin-left: 5px;
 }
 </style>
