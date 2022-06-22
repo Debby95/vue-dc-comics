@@ -35,32 +35,32 @@
     </main>
     <TheFooter></TheFooter>
     <div class="sign-up pt-3 pb-3">
-      <button class="text-white ">SIGN-UP NOW!</button>
+      <button class="sign-up-btn text-white">SIGN-UP NOW!</button>
       <ul class="d-flex">
         <li class="fs-5 fw-bold follow-us">FOLLOW US</li>
         <li>
           <a href="">
-            <img src="/img/footer-facebook.png" alt="">
+            <img class="logo-social" src="/img/footer-facebook.png" alt="">
           </a>
         </li>
         <li>
           <a href="">
-            <img src="/img/footer-twitter.png" alt="">
+            <img class="logo-social" src="/img/footer-twitter.png" alt="">
           </a>
         </li>
         <li>
           <a href="">
-            <img src="/img/footer-youtube.png" alt="">
+            <img class="logo-social" src="/img/footer-youtube.png" alt="">
           </a>
         </li>
         <li>
           <a href="">
-            <img src="/img/footer-pinterest.png" alt="">
+            <img class="logo-social" src="/img/footer-pinterest.png" alt="">
           </a>
         </li>
         <li>
           <a href="">
-            <img src="/img/footer-periscope.png" alt="">
+            <img class="logo-social" src="/img/footer-periscope.png" alt="">
           </a>
         </li>
       </ul>
@@ -94,14 +94,20 @@ export default {
   margin-top: 60px;
 }
 
-button {
+.sign-up-btn {
   border: 2px solid rgb(66, 112, 238);
   background-color: transparent;
-  padding: 5px;
+  margin: 10px 10px;
 }
 
 .follow-us {
   color: rgb(66, 112, 238);
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.logo-social {
+  margin: 10px 10px;
 }
 
 .img-blue-banner {
@@ -116,7 +122,8 @@ button {
 .sign-up {
   background-color: #2F2F2F;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: 20px;
 }
 
 .jumbotron {
