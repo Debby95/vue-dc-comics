@@ -1,13 +1,13 @@
 <template>
-    <div class="container">
+    <div class="container pt-5 pb-5">
         <div class="row row-cols-6 ">
-            <div class="col">
-                <div class="card text-white bg-dark " v-for="(product) in products" :key="product.series">
-                    <img class="thumb" :src="product.thumb" alt="">
-                    <div class="card-body">{{product.series}}</div>
-                </div>
+            <div class="col text-white bg-dark " v-for="(product) in products" :key="product.series">
+                <img class="img-fluid" :src="product.thumb" alt="">
+                <div>{{product.series}}</div>
             </div>
         </div>
+
+        <button class="load-more bg-primary text-white">LOAD MORE</button>
     </div>
 </template>
 
@@ -89,14 +89,15 @@ export default {
                     "series": "Catwoman",
                     "type": "graphic novel"
                 }
-                ]
+            ]
         }
     }
 }
 </script>
 
 <style>
-    .thumb {
-    
+    .load-more {
+        margin-top: 30px;
+        padding: 3px 40px;
     }
 </style>
