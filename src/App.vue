@@ -3,10 +3,11 @@
     <TheHeader></TheHeader>
     <main class="bg-dark">
       <div class="container mt-5">
-        <div class="text-white pt-5 pb-5 text-start fw-bold">&rArr; Content goes here &lArr;</div>
         
-        </div>
-
+        
+      </div>
+      <img class="jumbotron" src="/img/jumbotron.jpg" alt="">
+        <product></product>
         <div class="bg-primary pt-5 pb-5 text-white">
           <div class="row">
             <div class="col">
@@ -30,7 +31,7 @@
               <span class="img-title">DC POWER VISA</span>
             </div>
           </div>
-      </div>
+        </div>
     </main>
     <TheFooter></TheFooter>
     <div class="sign-up pt-3 pb-3">
@@ -70,13 +71,16 @@
 <script>
 import TheHeader from './components/TheHeader.vue'
 import TheFooter from './components/TheFooter.vue'
+import product from './components/product.vue'
+
 
 export default {
   name: 'App',
   components: {
     TheHeader,
     TheFooter,
-  }
+    product
+}
 }
 </script>
 
@@ -113,6 +117,11 @@ button {
   background-color: #2F2F2F;
   display: flex;
   justify-content: space-between;
+}
+
+.jumbotron {
+  height: 600px;
+  width: 100%;
 }
 
 </style>
